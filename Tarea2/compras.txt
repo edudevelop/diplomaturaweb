@@ -1,3 +1,5 @@
 carne
 yogurt
-cereales
+tomates
+palta
+chocolate
