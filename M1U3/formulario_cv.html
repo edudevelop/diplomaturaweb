@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formularo de ejemplo para generar un curriculum vitae">
+    <title>Formulario-CV</title>
+</head>
+<style>
+    body{
+        background: rgba(199, 199, 199, 0.973);
+    }
+
+    form{
+        margin-left: 15px;
+    }
+
+    h1{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgba(6, 18, 131, 0.726);	
+    }
+
+    label{
+        font-weight: bold;
+        color: rgba(4, 13, 94, 0.726);
+    }
+</style>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <form action="formulario_cv.html" method="post" name="carga">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Ingrese su nombre completo" />
+        </p>
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido completo" />
+        </p>   
+        <label </label>
+        <p>
+            <label for="archivo">Suba su foto</label>
+            <input type="file" name="archivo" accept="image/png, .jpeg, .jpg, image/gif"/>
+        </p> 
+        <p>
+            <label for="perfil">Perfil</label>           
+        </p>
+        <p>
+            <textarea name="perfil" rows="3" cols="100" placeholder="Indique que le gusta hacer y que no."></textarea>
+        </p>
+        <p>
+            <label for="estudios">Nivel de estudio completo</label>
+            <select name="estudio" id="estudio">
+                <option value="">Seleccione...</option>
+                <option value="PR">Primario</option>
+                <option value="SE">Secundario</option>
+                <option value="TE">Terciario</option>
+                <option value="UN">Universitario</option>
+            </select>
+        </p>
+        <label>Idiomas</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="idiomas[]" value="aleman" id="aleman">
+                <label for="aleman">Alem&aacute;n</label>              
+            </li>
+            <li>
+                <input type="checkbox" name="idiomas[]" value="frances" id="frances">
+                <label for="frances">Franc&eacute;s</label>                
+            </li>
+            <li>
+                <input type="checkbox" name="idiomas[]" value="ingles" id="ingles">
+                <label for="ingles">Ingl&eacute;s</label>                
+            </li>
+        </ul>
+        <br>
+        <p>
+            <input type="submit" name="enviar" value="Enviar" />
+            &nbsp;
+            <input type="reset" name="borrar" value="Borrar" />
+        </p>
+    </form>
+</body>
+</html>
