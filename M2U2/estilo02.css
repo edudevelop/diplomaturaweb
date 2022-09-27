@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-content: center;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.caja-flex {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.caja-flex p {
+  color: white;
+  font-size: 10px;
+}
+
+.caja-flex:first-child {
+  background: red;
+}
+
+.caja-flex:nth-child(2) {
+  background: blue;
+}
+
+.caja-flex:last-child {
+  background: green;
+}

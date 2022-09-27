@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.caja-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.caja-flex p {
+  color: white;
+  font-size: 10px;
+}
+
+/* 
+Utilizo pseudo-clases para no replicar las declaraciones 
+de la regla caja-flex con cada color.
+*/
+.caja-flex:first-child {
+  background: red;
+}
+
+.caja-flex:nth-child(2) {
+  background: blue;
+}
+
+.caja-flex:last-child {
+  background: green;
+}
