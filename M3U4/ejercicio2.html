@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+
+<body>
+    <div>
+        <textarea id="textarea"></textarea>
+        <button onclick="contador()">Contar caracteres</button>
+    </div>
+
+    <script>
+        function contador(color) {
+            var textarea = document.getElementById('textarea').value;
+            alert("El textarea tiene " + textarea.length + " caracteres.");
+        }
+    </script>
+</body>
+
+</html>
