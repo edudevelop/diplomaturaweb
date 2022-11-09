@@ -114,6 +114,15 @@ h2 {
   font-size: 35px;
 }
 
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 3px;
+  border-color: grey;
+}
+
 .en-construccion {
   height: 500px;
   margin: 0 auto;
@@ -125,6 +134,7 @@ h2 {
   max-width: 960px;
 }
 
+/* Home inicio */
 .funcionamiento {
   display: flex;
   justify-content: space-between;
@@ -139,7 +149,7 @@ h2 {
 }
 
 .item-funcionamiento p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .famosos {
@@ -170,6 +180,38 @@ h2 {
 .social ul li img {
   width: 45px;
 }
+/* Home fin */
+
+/* Sobre nosotros inicio */
+.nosotros {
+  background: rgba(255, 68, 0, 0.73);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 68, 0, 0.73) 0%,
+    rgba(246, 94, 39, 0.29) 50%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 68, 0, 0.73) 0%,
+    rgba(246, 94, 39, 0.29) 50%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 68, 0, 0.73) 0%,
+    rgba(246, 94, 39, 0.29) 50%
+  );
+  border-radius: 10px;
+  height: auto;
+  margin: 0 auto;
+  max-width: 850px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nosotros h2 {
+  text-shadow: 4px -1px 22px rgba(0, 0, 0, 0.93);
+}
+/* Sobre nosotros fin */
 
 /* Destinatarios inicio */
 .destinatario {
@@ -224,7 +266,7 @@ h2 {
 
 .formulario input {
   border-radius: 5px;
-  height: 25px;
+  height: 20px;
 }
 
 .formulario textarea {
@@ -252,6 +294,45 @@ h2 {
 }
 /* Contacto fin */
 
+/* Precios inicio */
+.punteada {
+  display: block;
+  border-bottom: 1px dotted black;
+  width: 300px;
+  height: 12px;
+}
+
+.cantidad-personas {
+  background: #fff;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.reservar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservar button {
+  background: rgb(228, 102, 44);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 30px;
+  padding: 6px 20px;
+  text-align: center;
+  width: 100px;
+}
+
+#listaprecios {
+  margin: auto;
+}
+/* Precios fin */
+
 #qr-ubic {
-  width: 110px;
+  width: 40px;
 }
