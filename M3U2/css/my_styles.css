@@ -149,7 +149,7 @@ table {
 }
 
 .item-funcionamiento p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .famosos {
@@ -266,7 +266,7 @@ table {
 
 .formulario input {
   border-radius: 5px;
-  height: 25px;
+  height: 20px;
 }
 
 .formulario textarea {
@@ -334,5 +334,5 @@ table {
 /* Precios fin */
 
 #qr-ubic {
-  width: 110px;
+  width: 40px;
 }
