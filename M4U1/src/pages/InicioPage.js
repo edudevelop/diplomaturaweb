@@ -43,7 +43,42 @@ const InicioPage = (props) => {
                         <img src="images/famosos/tini.jpg" alt="famoso 5" />
                         <img src="images/famosos/litkillah.jpg" alt="famoso 6" />
                     </div>
-                </section>                
+                </section>     
+                <section>
+                    <h2>Encontranos</h2>
+                    <div className="social">
+                        <ul>
+                            <li>
+                                <a href="https://es-la.facebook.com" target="_blank"><img src="images/social/fb.png"
+                                        alt="facebook"/></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://instagram.com" target="_blank"><img src="images/social/ig.png"
+                                        alt="instragram"/></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com" target="_blank"><img src="images/social/tw.png"
+                                        alt="twitter"/></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://youtube.com" target="_blank"> <img src="images/social/yt.png"
+                                        alt="youtube"/></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://linkedin.com" target="_blank"><img src="images/social/in.png"
+                                        alt="linked in"/></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>           
             </div>
         </main>
     );
