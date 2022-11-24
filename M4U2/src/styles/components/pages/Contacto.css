@@ -1,0 +1,61 @@
+.ubicanos ul {
+  list-style: none;
+}
+
+.ubicanos ul li {
+  font-size: 14px;
+}
+
+.contacto {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+}
+
+.contacto h2 {
+  text-align: left;
+}
+
+.contacto div {
+  width: 100%;
+}
+
+.formulario p {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario p label {
+  min-width: 80px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.formulario input {
+  border-radius: 5px;
+  height: 20px;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+  background: #4a4958;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 30px;
+  padding: 6px 20px;
+  /* position: relative; */
+  text-align: center;
+  width: 100px;
+}
+
+.formulario input[type="submit"]:hover {
+  background: #6a6972;
+}

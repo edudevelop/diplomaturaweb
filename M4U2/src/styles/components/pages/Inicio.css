@@ -1,0 +1,46 @@
+.funcionamiento {
+  display: flex;
+  justify-content: space-between;
+  height: 455px;
+}
+
+.item-funcionamiento {
+  color: white;
+  width: 20%;
+  text-align: center;
+  padding: 13px;
+  box-sizing: border-box;
+}
+
+.item-funcionamiento p {
+  font-size: 16px;
+}
+
+.famosos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.famosos img {
+  border-radius: 50%;
+  max-width: 12%;
+  box-shadow: 0 0 5px black;
+}
+
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.social ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.social ul li img {
+  width: 45px;
+}

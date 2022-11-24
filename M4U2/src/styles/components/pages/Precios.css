@@ -1,0 +1,40 @@
+.punteada {
+  display: block;
+  border-bottom: 1px dotted black;
+  width: 300px;
+  height: 12px;
+}
+
+.cantidad-personas {
+  background: #fff;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.reservar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservar button {
+  background: rgb(228, 102, 44);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 30px;
+  padding: 6px 20px;
+  text-align: center;
+  width: 100px;
+}
+
+.reservar button:hover {
+  background: rgb(236, 142, 99);
+}
+
+#listaprecios {
+  margin: auto;
+}

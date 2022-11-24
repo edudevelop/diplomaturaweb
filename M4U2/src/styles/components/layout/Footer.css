@@ -1,0 +1,25 @@
+footer {
+  background-color: black;
+  clear: both;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+footer img {
+  width: 45px;
+}
+
+footer h1 {
+  color: rgb(247, 90, 18);
+  font-family: "Acme", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-bottom: 15px;
+}
+
+footer p {
+  font-size: 12px;
+}

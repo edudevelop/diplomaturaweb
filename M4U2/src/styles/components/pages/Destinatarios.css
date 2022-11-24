@@ -1,0 +1,22 @@
+.destinatario {
+  /* background-color: rgb(252, 141, 97); */
+  background: #ff5300;
+  background: linear-gradient(180deg, #ff5300 0%, #ffffff 80%);
+  background: -webkit-linear-gradient(180deg, #ff5300 0%, #ffffff 80%);
+  background: -moz-linear-gradient(180deg, #ff5300 0%, #ffffff 80%);
+  box-shadow: 10px 10px 5px 0px rgba(56, 52, 48, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(56, 52, 48, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(56, 52, 48, 0.75);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 12px;
+  text-align: justify;
+}
+
+.destinatario:hover {
+  transform: translate(-10px, 0px);
+  -webkit-transform: translate(-10px, 0px);
+  -moz-transform: translate(-10px, 0px);
+  transition: all 0.3s ease-in;
+}

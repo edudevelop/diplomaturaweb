@@ -1,0 +1,32 @@
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 3px;
+  border-color: grey;
+}
+
+.holder {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.en-construccion {
+  height: 500px;
+  margin: 0 auto;
+  max-width: 960px;
+}

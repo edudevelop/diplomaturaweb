@@ -1,0 +1,24 @@
+.nosotros {
+  background: rgba(255, 68, 0, 0.72);
+  background: linear-gradient(90deg, rgba(255, 68, 0, 0.72) 0%, #ffffff 95%);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 68, 0, 0.72) 0%,
+    #ffffff 95%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 68, 0, 0.72) 0%,
+    #ffffff 95%
+  );
+  border-radius: 10px;
+  height: auto;
+  margin: 0 auto;
+  max-width: 850px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nosotros h2 {
+  text-shadow: 4px -1px 22px rgba(0, 0, 0, 0.93);
+}
