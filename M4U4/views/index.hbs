@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<h2>Determinar si el valor es par o impar</h2>
+{{#if evaluado}}
+  {{#if par}}
+    <p>El valor {{valor}} es par <a href="/salir">Salir</a></p>
+  {{else}}
+    <p>El valor {{valor}} es impar <a href="/salir">Salir</a></p>
+  {{/if}}
+{{/if}}
+
+{{#unless evaluado}}
+  <p>Ingrese un valor</p>
+  <form action="/evaluar" method="post">
+    <input type="number" name="valor" />
+    <button>Evaluar</button>
+  </form>
+{{/unless}}
